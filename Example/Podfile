@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '15.0'
+
+target 'ZHHJSONCodable_Example' do
+  pod 'ZHHJSONCodable', :path => '../'
+
+  target 'ZHHJSONCodable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
